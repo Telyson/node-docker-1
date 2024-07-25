@@ -7,7 +7,7 @@ services:
       - "3000:3000"
     depends_on:
       - mongo
-    image: anshuldevops/custom_nodeapp:1.0
+    image: Telyson/custom_nodeapp:0.0.0.1
 
   mongo:
     image: mongo:latest
